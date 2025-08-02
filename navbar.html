@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports Webpage</title>
+  <link rel="stylesheet" href="navbar.css">
 </head>
 
 <body>
-</body>
 
+  <nav class="navbar">
+    <div class="logo">SportsZone</div>
+    <ul class="nav-links">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Football</a></li>
+      <li><a href="#">Cricket</a></li>
+      <li class="dropdown">
+        <a href="#">Other Sports ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Basketball</a></li>
+          <li><a href="#">Tennis</a></li>
+          <li><a href="#">Hockey</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="right-nav">
+      <input type="text" placeholder="Search..." class="search-bar">
+      <button class="login-btn">Login</button>
+      <button class="register-btn">Register</button>
+    </div>
+  </nav>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>🏆 SportsZone</h2>
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Teams</a>
+                <a href="#">Schedule</a>
+                <a href="#">Tickets</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 SportsZone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
+
