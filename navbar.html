@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports Webpage</title>
+  <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-    
+  <nav class="navbar">
+    <div class="logo">SportsZone</div>
+    <ul class="nav-links">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Football</a></li>
+      <li><a href="#">Cricket</a></li>
+      <li class="dropdown">
+        <a href="#">Other Sports ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Basketball</a></li>
+          <li><a href="#">Tennis</a></li>
+          <li><a href="#">Hockey</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="right-nav">
+      <input type="text" placeholder="Search..." class="search-bar">
+      <button class="login-btn">Login</button>
+      <button class="register-btn">Register</button>
+    </div>
+  </nav>
 </body>
 </html>
